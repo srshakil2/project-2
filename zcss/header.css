@@ -30,6 +30,11 @@ nav {
   font-weight: 800px;
   font-size: 45px;
 }
+header {
+  background-image: url("../imgs/developer.png"), url("../imgs/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
 
 .open-sans-normal,
 ul {
@@ -49,4 +54,31 @@ nav .dark-2 {
 nav a {
   text-decoration: none;
   font-size: 20px;
+}
+/* bannar style */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 35px 0px 200px;
+}
+.banner-content {
+  width: 585px;
+  height: 262px;
+  left: 230px;
+
+  top: 297px;
+  bottom: -203px;
+  border: 2px solid peru;
+}
+.btns-primary {
+  background-color: #fd6e0a;
+  font-weight: bold;
+  padding: 14px 26px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14pxpx;
+}
+
+.banner-img {
+  border: 2px solid peru;
 }
